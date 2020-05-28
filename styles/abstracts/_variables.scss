@@ -1,0 +1,37 @@
+// =============================================================================
+// This file contains all application-wide Sass variables.
+// =============================================================================
+
+
+
+
+/// Relative URL where all Fontawesome webfonts are served from
+/// @type string
+$fa-font-path: '../fonts/fontawesome';
+
+/// Relative URL where all images are served from
+/// @type string
+$images-path: '../images';
+
+
+
+
+/// Header font family
+/// @type List
+$header-font: ('Montserrat', sans-serif);
+
+/// Text font family
+/// @type List
+$text-font: ('Open Sans', sans-serif);
+
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+);

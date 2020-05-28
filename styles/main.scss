@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  'abstracts/functions',
+  'abstracts/mixins',
+  'abstracts/variables';
+
+// 2. Vendors
+@import 
+  'vendors/normalize/normalize',			//v8.0.1
+  'vendors/fontawesome/fontawesome',	//v5.12.0
+  'vendors/fontawesome/brands',				//v5.12.0
+  'vendors/fontawesome/duotone',			//v5.12.0
+  'vendors/fontawesome/light',				//v5.12.0
+  'vendors/fontawesome/regular',			//v5.12.0
+  'vendors/fontawesome/solid';				//v5.12.0
+
+  // 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+  // 4. Layout-related sections
+  @import
+    'layout/header',
+    'layout/navigation',
+    'layout/footer';
+
+  // 5. Components
+  @import
+    'components/buttons';
