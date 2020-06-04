@@ -1,14 +1,12 @@
 // =============================================================================
-// Basic typography style for copy text
+// Basic typography style for text
 // =============================================================================
 
 
 
 
-html,
-body {
-  font: 100%/1.5 $text-font;
-  // font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+html {
+  font: 400 100%/1.5 $text-font;
 }
 
 h1, h2, h3, h4, h5, h6 {
