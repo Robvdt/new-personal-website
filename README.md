@@ -1,6 +1,7 @@
-# personal website
+# New personal webiste
 
-This repository is to showcase the process of desinging and coding a new personal webstite.
+Complete refresh of my current personal website [robvandentweel.nl](https://robvandentweel.nl/)
+Under Construction!
 
 ## License
 
